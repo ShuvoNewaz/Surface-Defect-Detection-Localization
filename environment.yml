@@ -1,0 +1,16 @@
+name: defect_detection
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - anaconda
+dependencies:
+  - pip
+  - numpy
+  - matplotlib
+  - pytorch
+  - torchvision
+  - pytorch-cuda
+  - opencv
+  - jupyter
+  - scikit-image
