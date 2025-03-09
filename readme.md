@@ -1,8 +1,11 @@
 # Surface Defect-detection and Localization using ResNet and Classical Computer Vision
 
-To use this repository, please follow these steps:
+## Project Environment
 
-- Clone this repository or download as a zip
+This repository is tested on Ubuntu 22. To use this repository, please follow these steps:
+
+- Make sure [anaconda](https://www.anaconda.com/docs/getting-started/anaconda/install) is installed.
+- Clone this repository or download as a zip.
 - Make sure your system has Anaconda installed. Open a terminal to the root directory and enter the following command:
 `conda env create -f environment.yml`
 This will create a conda environment with the required libraries.
@@ -10,7 +13,7 @@ This will create a conda environment with the required libraries.
 
 ## Dataset
 
-The dataset used for this project is the [NEU Surface Defect Database](https://www.kaggle.com/datasets/kaustubhdikshit/neu-surface-defect-database). The dataset can be download directly from the site, however, an annotation belonging to the training set is erroneously kept in the validation directory. Please execute the following steps to download and organize the dataset.
+The dataset used for this project is the [NEU Surface Defect Database](https://www.kaggle.com/datasets/kaustubhdikshit/neu-surface-defect-database). The dataset can be downloaded directly from the site, however, an annotation belonging to the training set is erroneously kept in the validation directory. Please execute the following steps to download and organize the dataset.
 
 ### Install Kaggle API
 
@@ -24,7 +27,7 @@ Enter the following in your terminal.
 
 ### Execute download_data.sh
 
-`bash download_data.sh`
+`bash download_dataset.sh`
 
 ## Training
 

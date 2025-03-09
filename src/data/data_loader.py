@@ -6,7 +6,6 @@ from torch.utils import data
 from typing import List, Tuple
 from PIL import Image
 import xml.etree.ElementTree as ET
-from src.training.utils import *
 from matplotlib.patches import Rectangle
 # from src.data_transforms import *
 
